@@ -28,3 +28,10 @@
     transform: scale(1.02);
 }
 
+article {
+    transition: transform 0.3s;
+}
+
+article:hover {
+    transform: scale(1.01);
+}
